@@ -1,0 +1,95 @@
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/color-smoke-black-background-38441280.jpg);
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+ 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} 
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color:black;
+  font-size: 2em;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.header {
+  padding: 20px;
+  height: 100vh;
+  background: url(https://e3.365dm.com/20/08/2048x1152/skynews-ms-dhoni-india-cricket_5068521.jpg) no-repeat  center;
+  background-size: cover;
+  position: relative;
+}
+.header h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 5rem;
+  letter-spacing: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.header .content {
+  position: relative;
+  top: 35%;
+  text-align: center;
+}
+
+.flex1 {
+  display: flex;
+  color: white;
+  padding: 100px 150px 150px 100px;
+  position: center;
+  background: url(https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RhZGl1bXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+  position: relative;
+}
+
+.flex1 h1 {
+  font-size: 325%;
+  text-align: center;
+}
+.flex1 p {
+  font-weight: 400%;
+  font-family: serif;
+  font-size: 150%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.flex {
+  display: flex;
+  color: white;
+  padding-left: 3%;
+  padding-right: 3%;
+  position: center;
+}
+
+.flex2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 6%;
+  padding-right: 2%;
+  background: black;
+
+}

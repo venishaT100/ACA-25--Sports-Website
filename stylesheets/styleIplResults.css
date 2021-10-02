@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://www.eastcoastdaily.in/wp-content/uploads/2018/04/ipl-cov.png);
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+    
+  #navbar ul li {
+    list-style: none;
+  }
+    
+  #navbar ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+    font-size: 2em;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 2px;
+  }
+    
+  #navbar ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+.ranks{
+  width:800px;
+  font-size: 2rem;
+  margin:auto;
+  margin-top: 20px;
+  color:#ffffff;
+  padding:10px 0px 10px 0px;
+  text-align:center;
+ 
+}
+
+#year{
+  position: relative;
+  left:800px;
+  top:-37px;
+  border-radius:6px;
+  width: 217px;
+  padding:0 22px;
+  height:40px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+  outline: none;
+  overflow: hidden;
+}
